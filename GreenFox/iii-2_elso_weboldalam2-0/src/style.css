@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+menu {
+  background-color: #186C67;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+a.menu {
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  position: relative;
+}
+.container {
+  color: #222;
+  font-family: "Julee", cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 40px;
+  flex-basis: auto;
+}
+
+.intro {
+  position: absolute;
+  bottom: 0;
+  color: #05A79F;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #353737;
+}
+img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  max-width: 490px;
+}
+
+h3.header {
+  font-size: 50px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-family: "Courgette", cursive;
+  font-size: 70px;
+  padding: 80px 50px;
+  color: white;
+  background-color: #518E8B;
+  width: 310px;
+  height: auto;
+  margin: 0;
+  position: relative;
+}
+
+blockquote::before {
+  content: "\201C";
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+}
+
+div.szoveg {
+  margin-top: 50px;
+  font-family: "Encode Sans", sans-serif;
+  font-size: 18px;
+  color: #222;
+}
+
+p {
+  line-height: 150%;
+}
+ul {
+  margin: 18px;
+}
+li {
+  list-style-type: square;
+  line-height: 150%;
+  margin-left: 40px;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 80px 0;
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+  color: lightgrey;
+  margin: 0 0 40px 0;
+  font-style: italic;
+}
+
+h3.simple {
+  line-height: 200%;
+  font-size: 28px;
+}
+
+h3.list {
+  font-size: 28px;
+  margin: 80px 0 0 0;
+}
+
+.first {
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.firstimage {
+  flex-basis: 40%;
+}
+
+.firsttext {
+  flex-basis: 55%;
+}
+
+.second {
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.secondimage {
+  flex-basis: 400px;
+}
+
+.secondtext {
+  flex-basis: 55%;
+}
+
+.third {
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.thirdimage {
+  flex-basis: 40%;
+}
+
+.thirdtext {
+  flex-basis: 55%;
+}
+
+.fourth {
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.fourthimage {
+  flex-basis: 40%;
+}
+
+.fourthtext {
+  flex-basis: 55%;
+}

@@ -1,0 +1,20 @@
+.magenta {
+  list-style-type: upper-roman;
+  color: magenta;
+  }
+.underline {
+  text-decoration: underline;  
+  }
+  ul {
+  list-style-type: square;
+}
+h1 {
+  color: orange;
+}
+h2 {
+  color: purple;
+}
+
+p {
+  width: 400px;
+}

@@ -1,0 +1,11 @@
+p {
+  background-color: #0D91A1;
+  font-color: #015668;
+  width: 50%;
+  height: 100px;
+  margin: 100px;
+  padding: 40px;
+  border: 5px solid #7DCE94;
+  font-family: 'Zeyada', cursive;
+  font-size: 70px;
+}

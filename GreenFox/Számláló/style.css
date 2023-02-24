@@ -1,0 +1,15 @@
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 60px;
+    padding: 30px;
+}
+
+button {
+    font-size: 30px;
+    border: 1px solid lightcyan;
+    background-color: white;
+    box-shadow: 0 0 10px 0 ;
+}

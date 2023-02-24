@@ -1,0 +1,16 @@
+button, #submitColor {
+    background-color:aquamarine;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+    font-size: large;
+}
+
+input {
+    height: 30px;
+    width: 400px;
+    margin: 40px 0 40px 40px;
+    border: 2px solid blueviolet;
+    font-size: large;
+}
