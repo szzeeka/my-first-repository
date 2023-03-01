@@ -1,10 +1,6 @@
 h1 {
-    font-size: 40px;
-}
-
-h2 {
     font-size: 60px;
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
 }
 
 button {
@@ -12,4 +8,12 @@ button {
     border: 1px solid lightcyan;
     background-color: white;
     box-shadow: 0 0 10px 0 ;
+    margin: 20px;
+}
+
+#total-count {
+font-size: 60px;
+padding-left: 30px;
+padding-top: 10px;
+
 }
